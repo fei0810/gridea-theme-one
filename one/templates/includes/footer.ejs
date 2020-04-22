@@ -14,8 +14,11 @@
     <a href="https://github.com/tangkaichuan/gridea-theme-one" target="_blank">Theme One,</a>
     <a href="https://gridea.dev/" target="_blank">Powered by Gridea&#65281;</a>
   </div>
-  <div class="footer_slogan">
-    <%- themeConfig.siteDescription %>
+  <div class="user-footer">
+    <%- themeConfig.footerInfo %>
+</div>
+<div class="footer_slogan">
+  <%- themeConfig.siteDescription %>
 </div>
 <div id="back_to_top" class="back_to_top">
   <span>△</span>
@@ -23,7 +26,8 @@
 <script src="<%= themeConfig.domain %>/media/scripts/util.js"></script>
 <%if(site.customConfig.busuanzi){%>
 <p class="statistic" id="busuanzi_container_site_pv">
-  Traffic statistics: site <span id="busuanzi_value_site_pv"></span> times, page <span id="busuanzi_value_page_pv"></span> times.
+  Traffic statistics: site <span id="busuanzi_value_site_pv"></span> times, page <span
+    id="busuanzi_value_page_pv"></span> times.
 </p>
 </script>
 <%}%>
