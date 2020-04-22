@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "author": "tangkaichuan",
   "repository": "https://github.com/tangkaichuan/gridea-theme-one",
-  "customConfig": [
-    {
+  "customConfig": [{
       "name": "github",
       "label": "Github",
       "group": "社交",
@@ -64,6 +63,22 @@
       "group": "展示",
       "value": false,
       "type": "switch"
+    },
+    {
+      "name": "ga",
+      "label": "Google Analytics",
+      "group": "统计",
+      "value": "",
+      "type": "input",
+      "note": "UA-xxxxxxxxx-x"
+    },
+    {
+      "name": "ba",
+      "label": "百度统计",
+      "group": "统计",
+      "value": "",
+      "type": "input",
+      "note": "站点 ID"
     }
   ]
 }
